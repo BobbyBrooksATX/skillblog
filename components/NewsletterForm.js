@@ -59,13 +59,13 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
         </div>
         <div className="mt-2 rounded-md shadow-sm">
           <button
-            className={`py-2 w-72 bg-primary-500 px-4 rounded-md font-medium text-white ${
-              subscribed ? 'cursor-default' : 'hover:bg-primary-700 dark:hover:bg-primary-400'
+            className={`py-2 w-72 bg-primary-500 dark:bg-yellow-500 dark:text-gray-900 px-4 rounded-md font-bold text-white bold ${
+              subscribed ? 'cursor-default' : 'hover:bg-primary-700 dark:hover:bg-yellow-600'
             } focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600 dark:ring-offset-black`}
             type="submit"
             disabled={subscribed}
           >
-            {subscribed ? 'Thank you!' : 'Sign up'}
+            {subscribed ? 'Thank you!' : 'Get on the bus 📬'}
           </button>
         </div>
       </form>

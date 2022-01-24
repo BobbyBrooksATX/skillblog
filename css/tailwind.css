@@ -18,6 +18,14 @@
   @apply my-5;
 }
 
+.gradLight {
+  @apply bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-700;
+}
+
+.gradDark {
+  @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -37,4 +45,23 @@ html {
   right: 0;
   width: 100%;
   height: 100%;
+}
+.header {
+  max-width: 1024px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr min(88ch, calc(100% - 64px)) 1fr;
+}
+.wrapper > * {
+  grid-column: 2;
+}
+.full-bleed {
+  grid-column: 1 / -1;
+}
+
+.theme-startup {
+  --color-primary: 255 115 179;
+  --color-secondary: 111 114 185;
+  /* ... */
 }

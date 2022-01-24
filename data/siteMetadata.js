@@ -1,23 +1,23 @@
 const siteMetadata = {
-  title: 'Quasilinear Musings',
-  author: 'Timothy Lin',
-  headerTitle: 'Quasilinear Musings',
-  description: 'Thoughts from a wandering mind',
+  title: 'Mindset Creative Agency LLC',
+  author: 'Bobby Brooks',
+  headerTitle: '',
+  description: 'SoftSkills for normal people',
   language: 'en-us',
-  siteUrl: 'https://www.timlrx.com',
+  siteUrl: 'https://www.skillsoft.mba',
   siteRepo: 'https://github.com/timlrx/timlrx.com',
   image: '/static/img/avatar.png',
   socialBanner: '/static/img/twitter-card.png',
-  email: 'timothy.lin@alumni.ubc.ca',
-  github: 'https://github.com/timlrx',
-  twitter: 'https://twitter.com/timlrxx',
-  linkedin: 'https://www.linkedin.com/in/timlrx',
+  email: 'bobby@bobbybrooks.dev',
+  github: 'https://github.com/mindsetatx',
+  twitter: 'https://twitter.com/mindsetatx',
+  linkedin: 'https://www.linkedin.com/in/bbatx',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
     plausibleDataDomain: false, // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
-    googleAnalyticsId: 'UA-100201704-1', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'G-G6SY2PMXCR', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
     // Please add your .env file and modify it according to your selection

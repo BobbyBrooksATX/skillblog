@@ -3,7 +3,7 @@ import '@/css/prism.css'
 
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
-
+import '@fontsource/eb-garamond'
 import Analytics from '@/components/analytics'
 import LayoutWrapper from '@/components/LayoutWrapper'
 

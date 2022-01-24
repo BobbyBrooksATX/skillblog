@@ -14,6 +14,8 @@ In the past year, I explored the ins and outs of building, maintaining and selli
 
 This post summarises some of my learnings from the above-mentioned projects as well as from observing the successes and failures of other projects. It does not aim to fully characterise all open-source projects, which as my first lesson points out is incredibly diverse, but merely serves just as a reflection of the things I have come to realise in the course of my work.
 
+<CallOut emoji="🔥" text="This is a custom call out component! That is also a couple of lines of text which is also pretty rad but I want the emoji to be aligned with the first line of the text only not centered and I want to add a solid border on one side because I'm extra." />
+
 If you are looking to start your first open-source project and wondering what marketing or traction has to do with it, perhaps this post would be of interest. If you are in the deep end of the open-source movement, my commiserations and gratitude - I hope this post resonates!
 
 ## Everyone has their reasons for being in open-source

@@ -5,9 +5,11 @@ import Image from './Image'
 import CustomLink from './Link'
 import TOCInline from './TOCInline'
 import Pre from './Pre'
+import CallOut from './callOut'
 
 export const MDXComponents = {
   Image,
+  CallOut,
   TOCInline,
   a: CustomLink,
   pre: Pre,
